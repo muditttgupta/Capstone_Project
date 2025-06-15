@@ -35,7 +35,7 @@ Key features include:
 
 ## 🗂 Project Structure
 
-QuizManagementSystem_Full/
+```QuizManagementSystem_Full/
 │
 ├── bin/ # Compiled .class files
 │
@@ -54,4 +54,4 @@ QuizManagementSystem_Full/
 │ ├── DBConnection.java # JDBC connectivity class
 │ └── Init.sql # Local DB schema (optional)
 │
-└── README.md # Project overview & instructions
+└── README.md # Project overview & instructions```
