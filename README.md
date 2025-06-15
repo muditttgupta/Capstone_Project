@@ -13,21 +13,21 @@ The project adheres strictly to core Java concepts such as object-oriented progr
 
 📂Project Structure:
 
-QuizManagementSystem_Full/
-    bin/
-        (Generated after compilation; stores .class files)
-    data/
-        easy.txt – Easy level quiz questions
-        medium.txt – Medium level quiz questions
-        hard.txt – Hard level quiz questions
-        users.txt – Stores usernames and passwords
-        quiz_results.txt – Stores user quiz results
-    src/
-        Main.java – Main entry point of the application
-        LoginGUI.java – GUI for user/admin login
-        QuizGUI.java – Main quiz GUI, lifeline feature, handles question flow
-        Question.java – Class representing a quiz question
-        DBConnection.java - Using JDBC for database Connectivity
-        Init.sql - Local Database for Project data
-    README.txt (optional)
-        Overview and instructions for using and compiling the project
+-QuizManagementSystem_Full/
+    -bin/
+        -(Generated after compilation; stores .class files)
+    -data/
+        -easy.txt – Easy level quiz questions
+        -medium.txt – Medium level quiz questions
+        -hard.txt – Hard level quiz questions
+        -users.txt – Stores usernames and passwords
+        -quiz_results.txt – Stores user quiz results
+    -src/
+        -Main.java – Main entry point of the application
+        -LoginGUI.java – GUI for user/admin login
+        -QuizGUI.java – Main quiz GUI, lifeline feature, handles question flow
+        -Question.java – Class representing a quiz question
+        -DBConnection.java - Using JDBC for database Connectivity
+        -Init.sql - Local Database for Project data
+    -README.txt (optional)
+        -Overview and instructions for using and compiling the project
