@@ -34,8 +34,8 @@ Key features include:
 ---
 
 ## 🗂 Project Structure
-
-```QuizManagementSystem_Full/
+```
+QuizManagementSystem_Full/
 │
 ├── bin/ # Compiled .class files
 │
