@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS quizdb;
+USE quizdb;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) UNIQUE,
+    password VARCHAR(100)
+);
+
+CREATE TABLE IF NOT EXISTS results (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    score INT,
+    difficulty VARCHAR(20),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
