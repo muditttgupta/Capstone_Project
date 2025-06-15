@@ -35,23 +35,4 @@ Key features include:
 
 ## 🗂 Project Structure
 
-QuizManagementSystem_Full/
-│
-├── bin/ # Compiled .class files
-│
-├── data/
-│ ├── easy.txt # Easy level questions
-│ ├── medium.txt # Medium level questions
-│ ├── hard.txt # Hard level questions
-│ ├── users.txt # Stores usernames and passwords
-│ └── quiz_results.txt # Stores quiz scores
-│
-├── src/
-│ ├── Main.java # Application entry point
-│ ├── LoginGUI.java # GUI for login
-│ ├── QuizGUI.java # GUI for quiz logic and display
-│ ├── Question.java # Quiz question model class
-│ ├── DBConnection.java # JDBC connectivity class
-│ └── Init.sql # Local DB schema (optional)
-│
-└── README.md # Project overview & instructions
+<pre> ``` QuizManagementSystem_Full/ │ ├── bin/ # Compiled .class files │ ├── data/ │ ├── easy.txt # Easy level questions │ ├── medium.txt # Medium level questions │ ├── hard.txt # Hard level questions │ ├── users.txt # User credentials │ └── quiz_results.txt # User scores │ ├── src/ │ ├── Main.java # Entry point │ ├── LoginGUI.java # Login screen │ ├── QuizGUI.java # Quiz logic and lifeline │ ├── Question.java # Question model │ ├── DBConnection.java # JDBC connection │ └── Init.sql # DB schema │ └── README.md # Project overview ``` </pre>
