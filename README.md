@@ -1,33 +1,57 @@
 # Capstone_Project
-Object Oriented Programming (Java) based Quiz Management System Portal
+# 🎓 Quiz Management System Portal (Java OOP Desktop App)
 
-✅Abstract of the Project:
+A Java-based desktop application designed for managing and attempting quizzes with admin control, persistent user data, and GUI-based interactivity. Built with Java Swing and standard file I/O — ideal for learning core Java concepts.
 
-The Quiz Management System is a Java-based desktop application designed to facilitate interactive quiz sessions for users and provide administrative control over user data and quiz content. Built using Java Swing for the GUI and standard I/O for data storage, the system allows users to log in, select a quiz difficulty (Easy, Medium, or Hard), and take a multiple-choice quiz with the assistance of a 50-50 lifeline feature.
-All user login credentials and quiz scores are securely stored in text files, ensuring persistence across sessions. Users can also view their previous scores upon logging in. The admin login grants access to a dedicated Admin Panel, where all user data and quiz results can be reviewed, and quiz questions can be edited directly within the application interface.
-The project adheres strictly to core Java concepts such as object-oriented programming, file handling, exception management, and GUI design using Swing. This ensures a simplified yet robust system architecture ideal for academic learning and demonstration purposes.
+---
 
+## ✅ Abstract
 
+The **Quiz Management System** is a Java Swing desktop application that allows users to log in, choose a quiz difficulty level (Easy, Medium, Hard), and take a multiple-choice quiz with a built-in **50-50 lifeline**. 
 
+Key features include:
+- User login with credential verification
+- Quiz selection based on difficulty
+- Real-time quiz interface with a lifeline feature
+- Persistent storage of quiz scores and user data
+- Admin access to view scores and edit questions
+- Fully GUI-based (Java Swing) and file-handled storage (I/O)
 
+> Built to demonstrate **Object-Oriented Programming**, **Exception Handling**, **File Handling**, **Multithreading**, and **GUI design using Swing**.
 
-📂Project Structure:
+---
 
--QuizManagementSystem_Full/
-    -bin/
-        -(Generated after compilation; stores .class files)
-    -data/
-        -easy.txt – Easy level quiz questions
-        -medium.txt – Medium level quiz questions
-        -hard.txt – Hard level quiz questions
-        -users.txt – Stores usernames and passwords
-        -quiz_results.txt – Stores user quiz results
-    -src/
-        -Main.java – Main entry point of the application
-        -LoginGUI.java – GUI for user/admin login
-        -QuizGUI.java – Main quiz GUI, lifeline feature, handles question flow
-        -Question.java – Class representing a quiz question
-        -DBConnection.java - Using JDBC for database Connectivity
-        -Init.sql - Local Database for Project data
-    -README.txt (optional)
-        -Overview and instructions for using and compiling the project
+## 🧩 Features
+
+- 🔑 Single login system for user & admin
+- 📚 Difficulty levels: Easy, Medium, Hard
+- 🎮 50-50 lifeline to remove two incorrect options
+- 💾 User credentials and scores saved to files
+- 📈 Users can view past performance
+- 🛠 Admin Panel to view/edit users and questions
+- 🧱 Clean modular design with core OOP principles
+
+---
+
+## 🗂 Project Structure
+
+QuizManagementSystem_Full/
+│
+├── bin/ # Compiled .class files
+│
+├── data/
+│ ├── easy.txt # Easy level questions
+│ ├── medium.txt # Medium level questions
+│ ├── hard.txt # Hard level questions
+│ ├── users.txt # Stores usernames and passwords
+│ └── quiz_results.txt # Stores quiz scores
+│
+├── src/
+│ ├── Main.java # Application entry point
+│ ├── LoginGUI.java # GUI for login
+│ ├── QuizGUI.java # GUI for quiz logic and display
+│ ├── Question.java # Quiz question model class
+│ ├── DBConnection.java # JDBC connectivity class
+│ └── Init.sql # Local DB schema (optional)
+│
+└── README.md # Project overview & instructions
